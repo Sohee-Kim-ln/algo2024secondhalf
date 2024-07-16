@@ -21,7 +21,8 @@ ex) docs: update README 240709
 | 타입 이름  | 내용 |
 |----|----|
 | docs | README.md 등의 문서 수정 |
-| solved | 풀은 문제 업로드 |
+| solved | 풀은 코드 업로드 |
+| fail | 풀지 못한 코드 업로드 |
 
 
 
@@ -34,3 +35,4 @@ ex) docs: update README 240709
 |03|dp|2|
 |04|해시|1|
 |05|비트마스킹|1|
+|06|구현|0|
