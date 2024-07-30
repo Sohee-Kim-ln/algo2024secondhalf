@@ -12,9 +12,9 @@ public class Baek7490 {
 		BufferedReader bfr = new BufferedReader(new InputStreamReader(System.in));
 
 		int T = Integer.parseInt(bfr.readLine());
-
+		sbAll = new StringBuilder();
 		for (int tc = 0; tc < T; tc++) {
-			sbAll = new StringBuilder();
+
 			N = Integer.parseInt(bfr.readLine());
 
 			// 연산자 저장 배열. 0, N+1에 + 표시
@@ -24,11 +24,12 @@ public class Baek7490 {
 			arr[N] = 2;
 
 			choice(1);
-			if (tc == T - 1)
-				sbAll.replace(sbAll.length()-1, sbAll.length(), "");
-			System.out.print(sbAll);
+			if(tc!=T-1)
+				sbAll.append("\n");
 
 		}
+		sbAll.replace(sbAll.length() - 1, sbAll.length(), "");
+		System.out.print(sbAll);
 	}
 
 	static void choice(int input) {
@@ -76,7 +77,7 @@ public class Baek7490 {
 						sb.append("-");
 					sb.append(i + 1);
 				}
-				
+
 				sbAll.append(sb).append("\n");
 			}
 			return;
