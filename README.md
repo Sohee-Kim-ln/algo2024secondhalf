@@ -22,6 +22,7 @@ ex) docs: update README 240709
 |----|----|
 | docs | README.md 등의 문서 수정 |
 | solved | 풀은 코드 업로드 |
+| solved_past | 풀었으나 미처 업로드 하지 못했던 코드 업로드 |
 | fail | 풀지 못한 코드 업로드 |
 
 
@@ -41,5 +42,5 @@ ex) docs: update README 240709
 |09|다익스트라|2|
 |10|그리디|4|
 |11|문자열|1|
-|12|BFS, DFS|5|
+|12|BFS, DFS|6|
 |13|분할정복|1|
