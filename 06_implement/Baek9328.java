@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Baek9328 {
+public class Baek17837 {
 	// 4방 탐색용 델타변수 없우좌상하
 	static int[] dr = { 0, 0, 0, -1, 1 };
 	static int[] dc = { 0, 1, -1, 0, 0 };

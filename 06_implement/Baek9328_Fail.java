@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 // 실패
-public class Baek9328_Fail {
+public class Baek17837_Fail {
 	// 4방 탐색용 델타변수 없우좌상하
 	static int[] dr = { 0, 0, 0, -1, 1 };
 	static int[] dc = { 0, 1, -1, 0, 0 };
